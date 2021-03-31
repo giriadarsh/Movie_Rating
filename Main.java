@@ -127,7 +127,7 @@ public class Main {
 					}
 						
 					if(numRating==2)
-						System.out.println("Since "+name+" has published 3 reviews, he is promoted to ‘critic’ now");
+						System.out.println("Since "+name+" has published 3 reviews, he is promoted to â€˜criticâ€™ now");
 				}
 				
 				break ;
@@ -138,6 +138,7 @@ public class Main {
 				System.out.println("Enter the name of movie to get the avgRating ");
 				String title = in.next() ;
 				System.out.println("avgRating for movie "+title+"is "+avgRating(title,myRaters));
+				break ;
 			}
 			
 			case 5:
@@ -155,6 +156,7 @@ public class Main {
 					}
 				}
 				System.out.println("avgRating for year "+year+"is "+total/num);
+				break ;
 			}
 			
 			case 6:
@@ -185,6 +187,7 @@ public class Main {
 		            System.out.println(entry.getKey());
 
 		        }
+			break ;
 
 				
 			}
