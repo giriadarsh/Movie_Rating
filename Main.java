@@ -9,7 +9,6 @@ public class Main {
 	
 	public static int avgRating(String title, ArrayList <Rater> myRaters)
 	{
-		System.out.println("Enter the name of movie to get the avgRating ");
 		int score=0 ;
 		int numRaters=1 ;
 		for(Rater rater: myRaters)
@@ -26,7 +25,6 @@ public class Main {
 	
 	public static int avgCriticRating(String title, ArrayList <Rater> myRaters)
 	{
-		System.out.println("Enter the name of movie to get the avgRating ");
 		int score=0 ;
 		int numRaters=1 ;
 		for(Rater rater: myRaters)
